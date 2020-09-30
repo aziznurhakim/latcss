@@ -1,0 +1,98 @@
+*{
+	margin: 0px;
+	padding: 0px;
+	font-family: sans-serif;
+}
+header{
+	background-image: linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)), url(restoran.jpg);
+	height: 100vh;
+	background-size: cover;
+	background-position: center;
+}
+ul{
+	float: right;
+	list-style-type: none;
+	margin-top: 25px;
+}
+ul li{
+	display:inline-block;
+}
+ul li a{
+	text-decoration: none;
+	color: #fecd80;
+	padding: 5px 20px;
+	border: 1px solid;
+	transition: 0.6s;
+	margin-top: 10px;
+}
+ul li a:hover{
+	background-color: #fecd80;
+	color: #000;
+}
+ul li.active a{
+	background-color: #fecd80;
+	color: #000;
+}
+.logo img{
+	float: left;
+	width: 150px;
+	height: auto;
+}
+.main{
+	max-width: 1200px;
+	margin: center;
+}
+.text{
+	position: absolute;
+	text-align: justify;
+	padding: 5px;
+	transition: 0.6s;
+	top: 40%;
+	color: #fecd80;
+}
+.title{
+	position: absolute;
+	top: 40%;
+	left: 35%;
+	transform: translate(-50%;-50%);
+}
+.title h1{
+	font-family: sans-serif;
+	color: #fecd80;
+	font-size: 70px;
+}
+.button{
+	position: absolute;
+	top: 55%;
+	left:35%;
+	transform: translate(-50%;-50%);
+}
+.btn1{
+	border: 1px solid;
+	padding: 10px 30px;
+	color: #fecd80;
+	text-decoration: none;
+	transition: 0.6s ease;
+	border-radius: 5px;
+	margin: 10px;
+}
+.btn2{
+	border: 1px solid;
+	padding: 10px 30px;
+	color: #fecd80;
+	text-decoration: none;
+	transition: 0.6s ease;
+	border-radius: 5px;
+	margin: 10px;
+}
+.btn1:hover{
+	background: #fecd80;
+	color: #000;
+}
+.btn2:hover{
+	background: #fecd80;
+	color: #000;
+}
+footer{
+	background-color: #000;
+} 
